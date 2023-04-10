@@ -115,11 +115,11 @@ header {
 .centre-olympiad {
     display: flex;
     background: #E0EDFF;
-    height: 907px;
     width: 100%;
     flex-direction: column;
     align-self: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .wrapper-centre-olympiad {
@@ -137,6 +137,8 @@ header {
     line-height: 82px;
     color: #000916;
     padding: 30px 0 22px;
+    display: flex;
+    align-self: center;
 }
 
 .olympiad-content {
@@ -195,5 +197,441 @@ header {
     width: 618px;
     border-radius: 50%;
     background: #113160;
+}
+
+.olympiad-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000916;
+    margin-bottom: 40px;
+}
+
+.trust-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.trust-box {
+    width: 373px;
+    height: 234px;
+    background: #E0EDFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trust-box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trust-box-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000916;
+    padding: 36px 0 26px 10px;
+}
+
+.trust-box-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding: 0 20px;
+}
+
+.study-path-items {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.study-path-item {
+    display: flex;
+    height: 123px;
+    width: 478px;
+}
+
+.study-ball {
+    background: #113161;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 100px;
+    min-width: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.path-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+
+.study-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #113160;
+    margin-bottom: 12px;
+}
+
+.study-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+}
+
+.to-olympiads-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 346px;
+    height: 64px;
+    background: #113160;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    align-self: center;
+    margin-top: 44px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.study-path {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+
+.official-info-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000916;
+}
+
+.official-info-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.official-info-item {
+    display: flex;
+    flex-direction: column;
+    width: 360.8083801269531px;
+}
+
+.official-info-item img {
+    height: 515px;
+    width: 360.8083801269531px;
+    margin-bottom: 10px;
+}
+
+.official-info-position {
+    display: flex;
+    flex-direction: column;
+    width: 341px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+}
+
+.feedback div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+}
+
+.feedback div img {
+    height: 25px;
+    width: 24.962499618530273px;
+    margin-right: 12px;
+}
+
+.feedback-small-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+}
+
+.feedback-bold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000916;
+}
+
+.official-info-position a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #49ACFF;
+    cursor: pointer;
+}
+
+.gap21 {
+    margin-bottom: 21px;
+}
+
+.gap30 {
+    margin-bottom: 30px;
+}
+
+.gap8 {
+    margin-bottom: 8px;
+}
+
+.official-info {
+    padding-bottom: 100px;
+}
+
+.in-law-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.in-law-img img {
+    height: 153px;
+    width: 145.3711700439453px;
+}
+
+.in-law-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.in-law-text a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding-bottom: 33px;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+.in-law {
+    padding-bottom: 67px;
+}
+
+.present {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 472px;
+    background: #E0EDFF;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.present img {
+    height: 347.5690612792969px;
+    width: 336px;
+}
+
+.present-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding-left: 28px;
+}
+
+.prefooter-btns {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.prefooter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 249px;
+    height: 64px;
+    background: #113160;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+footer {
+    width: 100%;
+    background: #F5F5F5;
+    height: 538px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper {
+    width: 1160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding-bottom: 42px;
+    text-decoration-line: none;
+}
+
+.olympiad-small-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding-bottom: 38px;
+}
+
+.search-olympiad-box {
+    height: 94px;
+    background: #113160;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+select {
+    background: #A3C8FF;
+    border-radius: 8px;
+    height: 44px;
+    width: 162px;
+    left: 456px;
+    top: 601px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.find-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 101px;
+    height: 44px;
+    background: #A3C8FF;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.prefooter-btn-olympiad-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 249px;
+    height: 64px;
+    background: #113160;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration-line: none;
+    margin-top: -40px;
+    margin-bottom: 100px;
+}
+
+.choose-area {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
 }
 
