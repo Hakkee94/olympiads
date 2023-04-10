@@ -22,7 +22,7 @@ header {
     align-self: center;
 }
 
-.header-menu-wrapper {
+.flex-wrapper {
     width: 1160px;
     display: flex;
     justify-content: space-between;
@@ -89,7 +89,7 @@ header {
     width: 100%;
 }
 
-.header-menu-wrapper a {
+.flex-wrapper a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -634,4 +634,86 @@ select {
     display: flex;
     justify-content: space-between;
 }
+
+.result-line {
+    height: 300px;
+    border: 3px solid #A3C8FF;
+}
+
+.result-content {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 888px;
+}
+
+.result-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000916;
+    padding: 20px 0 20px;
+}
+
+.result-small-text {
+    display: flex;
+    justify-content: space-between;
+    width: 309px;
+}
+
+.result-small-text div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #696969;
+}
+
+.result-item {
+    display: flex;
+    width: 908px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.result-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding: 18px 0 40px;
+}
+
+.result-btns a {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 203px;
+    height: 64px;
+    background: #113160;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.result-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+}
+
 
