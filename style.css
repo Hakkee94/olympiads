@@ -29,6 +29,10 @@ header {
     align-items: center;
 }
 
+input {
+    color: #000916;
+}
+
 .header-logo {
     display: flex;
     justify-content: space-between;
@@ -36,9 +40,12 @@ header {
 
 .header-auth {
     display: flex;
-    width: 300px;
     justify-content: space-between;
     align-items: center;
+}
+
+.header-auth div {
+    padding-right: 22px;
 }
 
 .header-enter-btn {
@@ -183,7 +190,7 @@ header {
     display: flex;
     width: 538px;
     justify-content: space-between;
-    padding-top: 60px;
+    padding-top: 35px;
 }
 
 .olympiad-btns div {
@@ -240,9 +247,10 @@ header {
 
 .trust-box div {
     display: flex;
+    padding-left: 20px;
     align-items: center;
-    justify-content: center;
 }
+
 
 .trust-box-title {
     font-family: 'Inter';
@@ -252,7 +260,7 @@ header {
     line-height: 24px;
     text-transform: uppercase;
     color: #000916;
-    padding: 36px 0 26px 10px;
+    /*padding: 36px 0 26px 10px;*/
 }
 
 .trust-box-text {
@@ -262,12 +270,12 @@ header {
     font-size: 20px;
     line-height: 24px;
     color: #000916;
-    padding: 0 20px;
+    padding: 20px;
 }
 
 .study-path-items {
     display: flex;
-    padding-top: 40px;
+    padding-bottom: 40px;
     justify-content: space-between;
 }
 
@@ -336,7 +344,6 @@ header {
     line-height: 24px;
     color: #FFFFFF;
     align-self: center;
-    margin-top: 44px;
     cursor: pointer;
     text-decoration-line: none;
 }
@@ -487,7 +494,7 @@ header {
     height: 472px;
     background: #E0EDFF;
     border-radius: 8px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .present img {
@@ -1034,7 +1041,7 @@ select {
     font-size: 35px;
     line-height: 42px;
     color: #000916;
-    padding-bottom: 20px;
+    padding: 20px 0 20px;
 }
 
 .arrange-diploma-box {
