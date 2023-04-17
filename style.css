@@ -107,10 +107,9 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 121px;
-    height: 44px;
     background: #A3C8FF;
     border-radius: 8px;
+    padding: 10px;
 }
 
 .centre-olympiad {
@@ -598,6 +597,7 @@ select {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -1121,6 +1121,7 @@ select {
     color: #000916;
     border: 1px solid #113160;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 .arrange-diploma-btns {
@@ -1146,6 +1147,7 @@ select {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .add-btn {
@@ -1156,6 +1158,7 @@ select {
     line-height: 24px;
     text-decoration-line: underline;
     color: #000916;
+    cursor: pointer;
 }
 
 .arrange-diploma-image {
