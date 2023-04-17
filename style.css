@@ -98,6 +98,7 @@ header {
     color: #FFFFFF;
     cursor: pointer;
     text-decoration-line: none;
+    text-align: center;
 }
 
 .current {
@@ -150,6 +151,7 @@ header {
     display: flex;
     align-self: center;
     justify-content: center;
+    text-align: center;
 }
 
 .olympiad-content {
@@ -980,4 +982,276 @@ select {
 
 .test-btns div {
     display: flex;
+}
+
+.disabled {
+    display: none;
+}
+
+.test-result div {
+    display: flex;
+}
+
+.test-result-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #113160;
+}
+
+.test-result-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding-top: 15px;
+}
+
+.test-result-strong-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #113160;
+    padding-top: 40px;
+}
+
+.result-btns-position {
+    margin: 40px 0 100px;
+}
+
+.arrange-diploma-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000916;
+    padding-bottom: 20px;
+}
+
+.arrange-diploma-box {
+    display: flex;
+    width: 1160px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.type-document {
+    padding-top: 40px;
+}
+
+.document-radio {
+    padding-top: 20px;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.document-radio-item {
+    display: flex;
+    align-items: center;
+}
+
+.document-checkbox {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.document-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000916;
+}
+
+.document-checkbox form input {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.document-radio-item form input {
+    width: 28px;
+    height: 28px;
+}
+
+.inputs-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-area input {
+    height: 68px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000916;
+    border: 1px solid #113160;
+    padding-left: 20px;
+}
+
+.inputs-area select {
+    height: 68px;
+    width: 504px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000916;
+    border: 1px solid #113160;
+    padding-left: 20px;
+}
+
+.arrange-diploma-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.arrange-diploma-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 264px;
+    height: 64px;
+    background: #113160;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.add-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #000916;
+}
+
+.arrange-diploma-image {
+    display: flex;
+    align-items: center;
+    width: 504px;
+    justify-content: space-between;
+}
+
+.arrange-diploma-image img {
+    height: 527.5579833984375px;
+    width: 373px;
+}
+
+.other-imgs img {
+    height: 144.26519775390625px;
+    width: 102px;
+    margin-bottom: 5px;
+}
+
+.other-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-imgs a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #CFCFCF;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.about-us-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background: #E0EDFF;
+    padding: 40px 93px;
+    margin-bottom: 100px;
+    margin-top: 18px;
+}
+
+.about-us-box div {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding-bottom: 40px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.pay-and-delivery-box {
+    background: #E0EDFF;
+    border-radius: 8px;
+    padding: 40px 93px;
+    height: 100%;
+    margin-bottom: 32px;
+    margin-top: 18px;
+}
+
+.pay-and-delivery-box div {
+    font-family: 'Inter';
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-size: 20px;
+    line-height: 24px;
+    color: #000916;
+    padding-bottom: 20px;
+}
+
+.box-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #113160;
+}
+
+.gap-bot-68 {
+    margin-bottom: 68px;
+}
+
+.strong {
+    font-weight: 800;
 }

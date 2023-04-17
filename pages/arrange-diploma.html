@@ -1,10 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../style.css" type="text/css"/>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
 <body>
 
+<header class="desktop">
+    <div class="wrapper">
+        <div class="header-logo">
+            <div class="header-logo-text">ЛОГО</div>
+            <div class="header-auth">
+                <div>Вы не вошли в систему</div>
+                <a class="header-enter-btn">Войти</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-menu">
+        <div class="flex-wrapper">
+            <a href="../index.html">Главная</a>
+            <a href="../pages/olympiad-page.html">Олимпиады</a>
+            <a class="current" href="../pages/arrange-diploma.html">Оформить диплом</a>
+            <a href="../pages/about-us.html">О нас</a>
+            <a href="../pages/pay-and-delivery.html">Оплата и доставка</a>
+        </div>
+    </div>
+</header>
+
+<div class="wrapper">
+    <div class="arrange-diploma">
+        <div class="centre-olympiad-title">Оформить диплом</div>
+        <div class="arrange-diploma-title">Получите диплом победителя олимпиады!</div>
+
+        <div class="arrange-diploma-box">
+            <div class="arrange-diploma-form">
+                <div class="test-text">Заполните свои данные для оформления</div>
+                <div class="type-document">
+                    <div class="test-text"> Тип документа</div>
+
+                    <div class="document-radio">
+                        <div class="document-radio-item">
+                            <div class="document-text">Диплом</div>
+                            <form><input type="radio"/></form>
+                            <form><input type="radio"/></form>
+                            <div class="document-text">Грамота</div>
+                        </div>
+                        <div class="document-radio-item">
+                            <div class="document-text">Участнику</div>
+                            <form><input type="radio"/></form>
+                            <form><input type="radio"/></form>
+                            <div class="document-text">Руководителю</div>
+                        </div>
+                    </div>
+
+                    <div class="document-checkbox">
+                        <form><input type="checkbox"/></form>
+                        <div class="document-text">Использовать данные из личного кабинета</div>
+                    </div>
+
+                    <div class="document-input-form">
+                        <form class="inputs-area" enctype="multipart/form-data">
+                            <input placeholder="Ваше ФИО"/>
+                            <input placeholder="Ваш e-mail"/>
+                            <input placeholder="Название учреждения"/>
+                            <input placeholder="Населенный пункт"/>
+                            <select>
+                                <option>Тип мероприятия</option>
+                                <option>Олимпиада</option>
+                                <option>Конкурс</option>
+                            </select>
+                            <select>
+                                <option>Уровень мероприятия</option>
+                                <option>Олимпиада</option>
+                                <option>Конкурс</option>
+                            </select>
+                            <select>
+                                <option>Результат</option>
+                                <option>Олимпиада</option>
+                                <option>Конкурс</option>
+                            </select>
+                            <input placeholder="Номинация"/>
+                            <input placeholder="Руководитель"/>
+                            <input placeholder="Дата участия в олимпиаде"/>
+
+                        </form>
+
+                        <div class="arrange-diploma-btns">
+                            <a class="arrange-diploma-btn">Оформить диплом</a>
+                            <a class="add-btn">+ Добавить диплом</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrange-diploma-image">
+                <img src="../img/arrange-diploma-main-img.webp" loading="lazy"/>
+
+                <div class="other-imgs">
+                    <img src="../img/mini-img1.webp" loading="lazy"/>
+                    <img src="../img/mini-img2.webp" loading="lazy"/>
+                    <img src="../img/mini-img2.webp" loading="lazy"/>
+                    <a>Просмотреть все</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="desktop">
+    <div class="footer-wrapper">
+        <div class="header-logo-text">ЛОГО</div>
+
+        <div class="footer-links">
+            <a href="../index.html">Главная</a>
+            <a href="../pages/olympiad-page.html">Олимпиады</a>
+            <a href="../pages/about-us.html">О нас</a>
+            <a href="../pages/pay-and-delivery.html">Оплата и доставка</a>
+        </div>
+
+        <div class="footer-links">
+            <a href="../pages/return-money.html">Возврат денежных средств</a>
+            <a href="../pages/public-offer.html">Публичная оферта</a>
+            <a href="../pages/client-agreement.html">Пользовательское соглашение</a>
+            <a href="../pages/policy.html">Политика конфиденциальности</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../index.js"></script>
 </body>
 </html>
