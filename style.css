@@ -156,7 +156,7 @@ input {
     font-size: 60px;
     line-height: 82px;
     color: #000916;
-    padding: 30px 0 22px;
+    padding: 66px 0 42px;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -1315,6 +1315,24 @@ a {
         color: #FFFFFF;
     }
 
+    .enter-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 88px;
+        height: 39px;
+        background: #A3C8FF;
+        border-radius: 8px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
     .mobile-header a img {
         color: #FFFFFF;
     }
@@ -1326,6 +1344,7 @@ a {
         line-height: 48px;
         text-align: center;
         color: #000916;
+        padding: 30px 0 30px;
     }
 
     .wrapper-centre-olympiad {
@@ -1706,6 +1725,59 @@ a {
 
     .white {
         padding-bottom: 7px;
+    }
+
+    .olympiad-small-text {
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .search-olympiad-box {
+        background: #113160;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        padding: 4px 0 4px;
+    }
+
+    .choose-area {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .search-olympiad-box {
+        height: 100%;
+    }
+
+    .choose-area select {
+        height: 44px;
+        width: 294px;
+        border-radius: 8px;
+        padding: 10px 20px 10px 20px;
+        margin: 16px 0 16px;
+    }
+
+    .find-btn {
+        align-self: center;
+        height: 44px;
+        width: 294px;
+        border-radius: 8px;
+        margin: 10px 0 70px;
+    }
+
+    .find-btn-mobile {
+        display: flex;
+        align-self: center;
+    }
+
+    .prefooter-btn-olympiad-page {
+        margin: 30px 0 70px;
     }
 
 
