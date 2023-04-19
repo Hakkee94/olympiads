@@ -32,15 +32,16 @@
     </div>
 </header>
 
-<div class="centre-olympiad desktop">
+<header class="mobile mobile-header">
+    <a href="menu-mobile.html"><img src="../img/меню.svg"/></a>
+    <a class="enter-btn">Войти</a>
+</header>
+
+<div class="centre-olympiad">
     <div class="centre-olympiad-title">Олимпиада по логопедии</div>
-    <div class="wrapper-centre-olympiad">
+    <div class="wrapper-centre-olympiad reverse">
         <div class="olympiad-content">
             <div>
-                <div class="olympiad-advantages">
-                    <img src="../img/галочка.svg"/>
-                    <div>Большой выбор олимпиад</div>
-                </div>
                 <div class="olympiad-advantages">
                     <img src="../img/галочка.svg"/>
                     <div>Участие в олимпиадах бесплатное</div>
@@ -55,8 +56,8 @@
                 </div>
             </div>
             <div class="olympiad-btns">
-                <div>Получить диплом</div>
-                <div>Принять участие</div>
+                <a>Получить диплом</a>
+                <a>Принять участие</a>
             </div>
         </div>
         <div class="logopedics-olympiad-img"><img src="../img/логопедия.webp" loading="lazy"/></div>
@@ -64,7 +65,16 @@
 </div>
 
 <div class="wrapper">
-    <div class="who-suits">
+    <div class="who-suits" for="show1">
+        <div class="olympiad-title">Кому подходит олимпиада по логопедии</div>
+        <div class="logopedics-text">Если вы воспитатель, педагог младших или даже старших классов, вы должны значить некоторые моменты из логопедической сферы.
+            Каждый учитель –логопед, должен правильно поставить речь учащемуся, чтобы тот умел грамотно и четко излагать свои мысли.
+            На протяжении нескольких лет будущий учитель изучает, как можно обучить ребенка правильному произношению слов,
+            как проявить любовь к знаниям и так далее. </div>
+        <a class="more-btn mobile" id="show1">Узнать больше</a>
+    </div>
+
+    <div class="who-suits mobile disabled" for="show1">
         <div class="olympiad-title">Кому подходит олимпиада по логопедии</div>
         <div class="logopedics-text">Если вы воспитатель, педагог младших или даже старших классов, вы должны значить некоторые моменты из логопедической сферы.
             Каждый учитель –логопед, должен правильно поставить речь учащемуся, чтобы тот умел грамотно и четко излагать свои мысли.
@@ -94,7 +104,7 @@
     </div>
 </div>
 
-<div class="wrapper desktop">
+<div class="wrapper">
     <div class="study-path">
         <div class="olympiad-title">Этапы участия</div>
 
@@ -177,10 +187,6 @@
     </div>
 </div>
 
-
-
-
-
 <footer class="desktop">
     <div class="footer-wrapper">
         <div class="header-logo-text">ЛОГО</div>
@@ -200,6 +206,28 @@
         </div>
     </div>
 </footer>
+
+<footer class="footer-mobile mobile">
+    <div class="header-title">
+        <div>ЛОГО</div>
+    </div>
+
+    <div class="footer-mobile-text">Центр учебно-методического сопровождения ФГОС
+        (лицензия на осуществление образовательной деятельности №9757-л, свидетельство о регистрации СМИ №ЭЛ ФС 77-65391)</div>
+
+    <div class="mobile-footer-links">
+        <a href="../index.html">Главная</a>
+        <a href="../pages/olympiad-page.html">Олимпиады</a>
+        <a href="../pages/arrange-diploma.html">Оформить диплом</a>
+        <a href="../pages/about-us.html">О нас</a>
+        <a href="../pages/pay-and-delivery.html">Оплата и доставка</a>
+        <a href="../pages/return-money.html">Возврат денежных средств</a>
+        <a href="../pages/public-offer.html">Публичная оферта</a>
+        <a href="../pages/client-agreement.html">Пользовательское соглашение</a>
+        <a href="../pages/confident.html">Политика Конфиденциальности</a>
+    </div>
+</footer>
+
 
 
 <script src="../index.js"></script>

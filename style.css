@@ -37,6 +37,10 @@ input {
     color: #000916;
 }
 
+::placeholder {
+    color: #000916;
+}
+
 .header-logo {
     display: flex;
     justify-content: space-between;
@@ -716,28 +720,29 @@ select {
 }
 
 .result-btns a {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    width: 203px;
-    height: 64px;
-    background: #113160;
-    border-radius: 8px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-    text-decoration-line: none;
-    cursor: pointer;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*gap: 10px;*/
+    /*width: 203px;*/
+    /*height: 64px;*/
+    /*background: #113160;*/
+    /*border-radius: 8px;*/
+    /*font-family: 'Inter';*/
+    /*font-style: normal;*/
+    /*font-weight: 500;*/
+    /*font-size: 20px;*/
+    /*line-height: 24px;*/
+    /*color: #FFFFFF;*/
+    /*text-decoration-line: none;*/
+    /*cursor: pointer;*/
 }
 
 .result-btns {
     display: flex;
-    width: 490px;
+    width: 450px;
+    justify-content: space-between;
 }
 
 .error-text {
@@ -847,6 +852,10 @@ select {
     line-height: 24px;
     color: #FFFFFF;
     margin: 33px 0 100px;
+}
+
+.mar-bot-100 {
+    margin-bottom: 100px;
 }
 
 .templates {
@@ -976,7 +985,11 @@ select {
     align-items: center;
     cursor: pointer;
     margin-left: 30px;
+    width: 200px;
+    background: #FFFFFF;
 }
+
+
 
 .send-err-btn {
     display: flex;
@@ -1244,10 +1257,8 @@ a {
 .pay-and-delivery-box div {
     font-family: 'Inter';
     font-style: normal;
-    /*font-weight: 400;*/
     font-size: 20px;
     line-height: 24px;
-    color: #000916;
     padding-bottom: 20px;
 }
 
@@ -1270,8 +1281,9 @@ a {
     font-weight: 800;
 }
 
-
-
+.mobile {
+    display: none;
+}
 
 
 @media screen and (max-width: 1160px) {
@@ -1340,11 +1352,11 @@ a {
     .centre-olympiad-title {
         font-style: normal;
         font-weight: 700;
-        font-size: 35px;
-        line-height: 48px;
         text-align: center;
         color: #000916;
         padding: 30px 0 30px;
+        font-size: 29px;
+        line-height: 40px;
     }
 
     .wrapper-centre-olympiad {
@@ -1400,6 +1412,7 @@ a {
     .wrapper {
         max-width: calc(100vw - 20px);
         min-width: 320px;
+        width: 100%;
     }
 
     .trust-boxes {
@@ -1679,7 +1692,7 @@ a {
         padding: 0 0 25px 20px;
     }
 
-    .white div{
+    .white div {
         color: #FFFFFF;
     }
 
@@ -1778,6 +1791,315 @@ a {
 
     .prefooter-btn-olympiad-page {
         margin: 30px 0 70px;
+    }
+
+    .result-content {
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .flex-wrapper {
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .result-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .result-small-text div {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .result-text {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        padding-bottom: 20px;
+    }
+
+    .result-btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .result-btns a {
+        margin-bottom: 10px;
+        font-size: 18px;
+        width: 294px;
+    }
+
+    .result-line {
+        margin-right: 13px;
+    }
+
+    .result-item {
+        width: 100%;
+        padding-bottom: 70px;
+    }
+
+    .error-text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        padding-left: 20px;
+    }
+
+    .reset-filter-btn {
+        width: 294px;
+    }
+
+    .result-line {
+        height: 348px;
+    }
+
+    .logopedics-olympiad-img img {
+        height: 274.1705322265625px;
+        width: 320px;
+        padding: 0;
+    }
+
+    .more-btn {
+        display: flex;
+        align-self: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #000000;
+        cursor: pointer;
+        padding: 25px 0 25px;
+    }
+
+    .who-suits {
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+        padding: 30px 0 20px;
+        margin-bottom: 70px;
+    }
+
+
+    .disabled {
+        display: none;
+    }
+
+    .logopedics-text {
+        padding: 0 20px 0 20px;
+    }
+
+    .centre-olympiad {
+        margin-bottom: 70px;
+        padding-bottom: 20px;
+    }
+
+    .choose-theme-row {
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    .choose-item {
+        margin-right: 0;
+        margin-bottom: 13px;
+        width: 320px;
+        height: 55px;
+    }
+
+    .choose-theme {
+        margin-bottom: 70px;
+    }
+
+    .templates div img {
+        height: 207.8275909423828px;
+        width: 360px;
+    }
+
+    .templates a {
+        margin-bottom: 70px;
+    }
+
+    .test-stage {
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .stages {
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .questions {
+        display: none;
+    }
+
+    .ball-question {
+        width: 14px;
+        height: 14px;
+    }
+
+    .question-title {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .test-text {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .answer-title {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .test-btns {
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+        margin-bottom: 70px;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .test-btns div {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .test-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 320px;
+        margin-bottom: 30px;
+    }
+
+    .skip-btn {
+        margin-left: 0;
+        align-items: start;
+        margin-bottom: 30px;
+    }
+
+    .answers {
+        padding-bottom: 30px;
+    }
+
+    .result-btns-position {
+        margin-bottom: 70px;
+    }
+
+    .arrange-diploma-box {
+        flex-direction: column-reverse;
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+
+    .arrange-diploma-title {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        padding: 0 0 30px;
+    }
+
+    .arrange-diploma-image img {
+        height: 335px;
+        width: 236.8253936767578px;
+        margin-right: 15px;
+    }
+
+    .other-imgs img {
+        height: 91.60858917236328px;
+        width: 64.76190948486328px;
+    }
+
+    .arrange-diploma-image {
+        margin-bottom: 30px;
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .other-imgs a {
+        font-weight: 400;
+        font-size: 10.795px;
+        line-height: 13px;
+        text-align: center;
+    }
+
+    .type-document {
+        padding-top: 20px;
+    }
+
+    .document-radio {
+        flex-direction: column;
+        padding: 25px 0 40px;
+        max-width: calc(100vw - 20px);
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .bold {
+        font-weight: 600;
+    }
+
+    .inputs-area select {
+        width: 100%;
+    }
+
+    .arrange-diploma-btns {
+        flex-direction: column;
+    }
+
+    .arrange-diploma-btn {
+        margin-bottom: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .add-btn {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .about-us-box {
+        padding: 30px 16px 0 16px;
+        margin-bottom: 70px;
+    }
+
+    .pay-and-delivery-box {
+        padding: 30px 16px 0 16px;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+
+    .gap-bot-30 {
+        margin-bottom: 30px
+    }
+
+    .mar-bot-100 {
+        margin-bottom: 70px;
     }
 
 

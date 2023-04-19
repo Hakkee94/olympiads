@@ -32,6 +32,11 @@
     </div>
 </header>
 
+<header class="mobile mobile-header">
+    <a href="menu-mobile.html"><img src="../img/меню.svg"/></a>
+    <a class="enter-btn">Войти</a>
+</header>
+
 <div class="wrapper">
     <div class="arrange-diploma">
         <div class="centre-olympiad-title">Оформить диплом</div>
@@ -41,27 +46,30 @@
             <div class="arrange-diploma-form">
                 <div class="test-text">Заполните свои данные для оформления</div>
                 <div class="type-document">
-                    <div class="test-text"> Тип документа</div>
+                    <div class="test-text bold"> Тип документа</div>
 
-                    <div class="document-radio">
-                        <div class="document-radio-item">
-                            <div class="document-text">Диплом</div>
-                            <form><input type="radio"/></form>
-                            <form><input type="radio"/></form>
-                            <div class="document-text">Грамота</div>
+                    <form enctype="multipart/form-data">
+                        <div class="document-radio">
+                            <div class="document-radio-item">
+                                <div class="document-text">Диплом</div>
+                                <input type="radio"/>
+                                <input type="radio"/>
+                                <div class="document-text">Грамота</div>
+                            </div>
+                            <div class="document-radio-item">
+                                <div class="document-text">Участнику</div>
+                                <input type="radio"/>
+                                <input type="radio"/>
+                                <div class="document-text">Руководителю</div>
+                            </div>
                         </div>
-                        <div class="document-radio-item">
-                            <div class="document-text">Участнику</div>
-                            <form><input type="radio"/></form>
-                            <form><input type="radio"/></form>
-                            <div class="document-text">Руководителю</div>
-                        </div>
-                    </div>
 
-                    <div class="document-checkbox">
-                        <form><input type="checkbox"/></form>
-                        <div class="document-text">Использовать данные из личного кабинета</div>
-                    </div>
+                        <div class="document-checkbox desktop">
+                            <input type="checkbox"/>
+                            <div class="document-text">Использовать данные из личного кабинета</div>
+                        </div>
+                    </form>
+
 
                     <div class="document-input-form">
                         <form class="inputs-area" enctype="multipart/form-data">
@@ -91,7 +99,8 @@
                         </form>
 
                         <div class="arrange-diploma-btns">
-                            <a class="arrange-diploma-btn">Оформить диплом</a>
+                            <a class="arrange-diploma-btn desktop">Оформить диплом</a>
+                            <a class="arrange-diploma-btn mobile">Сбросить фильтр</a>
                             <a class="add-btn">+ Добавить диплом</a>
                         </div>
                     </div>
@@ -111,7 +120,6 @@
         </div>
     </div>
 </div>
-
 
 <footer class="desktop">
     <div class="footer-wrapper">
@@ -133,6 +141,28 @@
     </div>
 </footer>
 
+<footer class="footer-mobile mobile">
+    <div class="header-title">
+        <div>ЛОГО</div>
+    </div>
+
+    <div class="footer-mobile-text">Центр учебно-методического сопровождения ФГОС
+        (лицензия на осуществление образовательной деятельности №9757-л, свидетельство о регистрации СМИ №ЭЛ ФС
+        77-65391)
+    </div>
+
+    <div class="mobile-footer-links">
+        <a href="../index.html">Главная</a>
+        <a href="../pages/olympiad-page.html">Олимпиады</a>
+        <a href="../pages/arrange-diploma.html">Оформить диплом</a>
+        <a href="../pages/about-us.html">О нас</a>
+        <a href="../pages/pay-and-delivery.html">Оплата и доставка</a>
+        <a href="../pages/return-money.html">Возврат денежных средств</a>
+        <a href="../pages/public-offer.html">Публичная оферта</a>
+        <a href="../pages/client-agreement.html">Пользовательское соглашение</a>
+        <a href="../pages/confident.html">Политика Конфиденциальности</a>
+    </div>
+</footer>
 
 <script src="../index.js"></script>
 </body>
