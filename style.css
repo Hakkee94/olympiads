@@ -1226,7 +1226,7 @@ select {
     flex-direction: column;
     border-radius: 8px;
     background: #E0EDFF;
-    padding: 40px 93px;
+    padding: 40px 0 0 94px;
     margin-bottom: 100px;
     margin-top: 18px;
 }
